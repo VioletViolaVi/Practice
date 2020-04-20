@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="/navbar-attempt-1/style1.css">
+	<script src="https://kit.fontawesome.com/bfcbb8f6a3.js" crossorigin="anonymous"></script>
+	<title>Responsive NavBar</title>
+</head>
+
+<body>
+<header>
+<h1 class="logo">BusyBakes</h1>
+	<nav class="navbar">	
+		<span><a href="#" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a></span><br>
+		<div class="navbar_tabs">
+			<ul>
+				<li> <a href="#"></a>Home</li>
+				<li> <a href="#"></a>Gallery</li>
+				<li> <a href="#"></a>Schedule</li>
+				<li> <a href="#"></a>Sign Up</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id="top_nav" class="top_nav">
+		<a href="#" class="close_button" onclick="closeSlideMenu()"><i class="fas fa-times"></i></a>
+		<a href="#">Home</a>
+		<a href="#">Gallery</a>
+		<a href="#">Schedule</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<div id="section_area_navbar">
+		<h2>Let's get busy baking!</h2>
+	</div>
+</header>
+
+<script>
+function openSlideMenu(){
+    document.getElementById('top_nav').style.width = '250px';
+    document.getElementById('section_area_navbar').style.marginTop = '250px';
+}
+
+function closeSlideMenu(){
+    document.getElementById('top_nav').style.width = '0';
+    document.getElementById('section_area_navbar').style.marginTop = '0';
+}
+</script>
+
+</body>
+<!--or &times;-->
+
+</html>

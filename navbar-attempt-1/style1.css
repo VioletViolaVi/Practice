@@ -1,0 +1,45 @@
+/*universal settings*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: gainsboro; */
+    color: black;
+    text-align: center;   
+}
+
+/*navigation bar across the screen*/
+.navbar{
+    border: 1px solid orange;
+    background-color: pink;
+    overflow: hidden;
+    height:63px; 
+}
+
+/*hamburger icon*/
+i.fas.fa-bars{
+    border: 1px solid blue;
+    background-color: pink;
+    float: right;
+}
+
+.navbar_tabs{
+    background-color: purple;
+}
+
+/*every navlinks*/
+.navbar a{
+    display: block;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    font-size: 17px;
+} 
+
+.navbar ul{
+    padding-top: 8px;
+    list-style: none;
+}
+
+.navbar a:hover{
+    background-color: yellow;
+}
