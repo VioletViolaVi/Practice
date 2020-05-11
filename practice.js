@@ -8,7 +8,7 @@ let a = 11;
 console.log(a);
 
 a = 10;
-/* First a was 10... */
+/* First a was 10.*/
 console.log("A is: " + a);
 
 /* then it was 15 */
@@ -143,12 +143,9 @@ let notANumber = Number.isNaN(myValue);
 let integer = Number.isInteger(myValue);
 let twoDecs = parseFloat (myValue.toFixed(2));
 
-// This will log your three variables to the console
+
 console.log(finite, notANumber, integer, twoDecs)
 
-
-/* Whatever we put in quotes become string
-These are all strings */
 
 let a1 = "I am string";
 let b1 = "3"; // If there were no quotes here, it would be a number
@@ -171,11 +168,10 @@ console.log("\tWelcome \tto \tthe \tworld \tof\tJavascript!");
 console.log("You\tcan\tcheck\tout\tanytime\tyou\twant,\tbut\tyou\ncan\tnever\tleave");
 
 console.log(`I'm in the shower and I'm singing a song "Stop me if you've heard it!"      
-                 long space and a new line now...          'long space again annnnnnnnnnnnnnnnnnnndddddddddddddddddd
+                 long space and a new line now.         'long space again annnnnnnnnnnnnnnnnnnndddddddddddddddddd
    we've blured it :)'`);
 
    let myString = "I'm a cool string";
-              /*0123456*/
 console.log(myString.indexOf("I"));
 console.log(myString.indexOf("'"));
 console.log(myString.indexOf("m"));
@@ -192,3 +188,44 @@ console.log(myString.indexOf("r"));
 console.log(myString.indexOf("i"));
 console.log(myString.indexOf("n"));
 console.log(myString.indexOf("g"));
+
+let wind = "Take your sweet sweet "; 
+let fire = "time. Let the world un"; 
+let earth = "wind. Let's do our growing up n"; 
+let air = "aturally! Oh Yeah! You gotta have rain & sunshine blossom on a vine. That's nature's grand design!"; 
+let eggs = " Take your sweet sweet time!"; 
+let song = wind + fire + earth + air + eggs; 
+let complete = song + " and you'll be just fine! Take your sweet sweet time! "
+let over = "And this jungle will be MINE!!! :) "
+console.log(complete + over);
+
+let str1 = "Hello ";
+let str2 = "there!";
+let str3 = " What a beautiful day to learn Javascript concatenation, right?";
+console.log (str1.concat(str2, str3));
+console.log (str2.concat(str1, str3));
+console.log (str3.concat(str1, str2));
+
+let str12 = "Hello ";
+let str22 = "there!";
+let str32 = " What a beautiful day to learn Javascript concatenation, right?";
+console.log(str12.concat(str22, str32));
+
+let apple1 = "oh na na"; 
+let cake = " what's my name?"; 
+let runner = " oh na na what's"; 
+let grapes1 = " my name?"; 
+console.log(apple1.concat(cake + runner + grapes1));
+console.log(cake.concat(runner + grapes1 + apple1));
+console.log(grapes1.concat(apple1 + cake + runner));
+
+console.log(`${cake + eggs}`);
+console.log(`${banana + a1 + wind + fire + str1}`);
+
+let quote = "Whatever the mind can conceive and believe, it can achieve.";
+let conceive = quote.slice(22,30);
+let believe = quote.slice(35,42);
+let achieve = quote.slice(51,58);
+console.log(conceive, believe, achieve);
+
+   
