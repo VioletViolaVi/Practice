@@ -74,3 +74,121 @@ console.log(+0/1);
 console.log(0/+1);
 console.log(-0/1);
 console.log(0/-1);
+
+console.log
+   (Number.isFinite(123)
+);
+
+console.log(
+    Number.isNaN(0 / 0)
+);
+
+console.log(
+   Number.isNaN("a" * 3)
+);
+
+console.log(
+   Number.isInteger(1)
+);
+
+console.log(
+   Number.isInteger("banana")
+);
+
+console.log(
+   Number.isInteger("56") // not true 'cause "56" is a string not a whole number, due to quotations
+);
+
+console.log(
+   Number.isInteger(56) // true 'cause 56 is a whole number
+);
+
+var o = 5; // you need to declare the letter as a number 1st if u want to use the letter in the method area "()"
+console.log(
+   Number.isNaN(o * 3)
+);
+
+console.log(
+   Number.isFinite(123.0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
+);
+
+console.log(
+   Number.isNaN(3)
+);
+
+console.log(
+   Number.isInteger(0.5)
+);
+
+console.log(
+Math.floor(4.9), // rounds down the number
+Math.ceil(7.4), // rounds up the number
+Math.round(1.5), // rounds to the nearest integer
+Math.trunc(3.952), // removes the decimal part 
+Math.sqrt(49), // returns 9 because 7 * 7 is 49
+Math.cbrt(125) // returns 4 because 5 * 5 * 5 is 125
+)
+
+console.log(
+   1.1.toFixed(10)
+);
+
+
+// This variable will be evaluated by your code:
+let myValue = 15/1.27;
+
+// Define your variables here:
+let finite = Number.isFinite(myValue);
+let notANumber = Number.isNaN(myValue);
+let integer = Number.isInteger(myValue);
+let twoDecs = parseFloat (myValue.toFixed(2));
+
+// This will log your three variables to the console
+console.log(finite, notANumber, integer, twoDecs)
+
+
+/* Whatever we put in quotes become string
+These are all strings */
+
+let a1 = "I am string";
+let b1 = "3"; // If there were no quotes here, it would be a number
+let c1 = "false"; // If there were no quotes here, it would be a boolean
+let n1 = "Alan";
+n1 = b1 + c1;
+m1 = n1 + a1 + b1;
+console.log("My name is " + "Paul");
+console.log("My name is " + n1);
+console.log('Hello World');
+console.log("what's up ya'll" + a1);
+console.log("what's up ya'll" + b1);
+console.log("what did you just do? :|" + m1);
+console.log("what's \nup \nya'll" + c1);
+console.log("Made it up on the spot \nHa! I think not \nWhy you tellin' them lies \nyo boi you need to stop \nI'm hotter than summer! \nHa yo boi your rap is a bummer \nAnd where did you get the nerve to tell RayDizzal to take a NUMBER!!");
+console.log("Made it up on the spot\rHa! I think not \rWhy you tellin' them lies \ryo boi you need to stop \rI'm hotter than summer! \rHa yo boi your rap is a bummer \rAnd where did you get the nerve to tell RayDizzal to take a NUMBER!!");
+console.log("Made it up on the spot\r Ha! I think not\r Why you tellin' them lies\r yo boi you need to stop\r I'm hotter than summer!\r Ha yo boi your rap is a bummer\r And where did you get the nerve to tell RayDizzal to take a NUMBER!!");
+
+console.log("\tWelcome \tto \tthe \tworld \tof\tJavascript!");
+console.log("You\tcan\tcheck\tout\tanytime\tyou\twant,\tbut\tyou\ncan\tnever\tleave");
+
+console.log(`I'm in the shower and I'm singing a song "Stop me if you've heard it!"      
+                 long space and a new line now...          'long space again annnnnnnnnnnnnnnnnnnndddddddddddddddddd
+   we've blured it :)'`);
+
+   let myString = "I'm a cool string";
+              /*0123456*/
+console.log(myString.indexOf("I"));
+console.log(myString.indexOf("'"));
+console.log(myString.indexOf("m"));
+console.log(myString.indexOf(" "));
+console.log(myString.indexOf("a"));
+console.log(myString.indexOf("c"));
+console.log(myString.indexOf("o"));
+console.log(myString.lastIndexOf("o")); // is the other "o" so, how to make these different? - answer: use "last" in front of indexOf
+console.log(myString.indexOf("l"));
+console.log(myString.lastIndexOf(" ")); // is the other space so, how to make these different? - answer: use "last" in front of indexOf
+console.log(myString.indexOf("s"));
+console.log(myString.indexOf("t"));
+console.log(myString.indexOf("r"));
+console.log(myString.indexOf("i"));
+console.log(myString.indexOf("n"));
+console.log(myString.indexOf("g"));
