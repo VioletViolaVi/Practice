@@ -228,4 +228,24 @@ let believe = quote.slice(35,42);
 let achieve = quote.slice(51,58);
 console.log(conceive, believe, achieve);
 
-   
+
+let fullName = 'Andrew Martin';
+let domainName = 'gmail';
+let tld = 'com';
+
+// BOTH THESE WORK BUT 1 OR THE OTHER
+let firstLetter = fullName.slice(0,1);
+let smallA = firstLetter.toLowerCase();
+let restOfFullName = fullName.slice(1,6);
+let firstLetter2 = fullName.slice(7,8);
+let smallM = firstLetter2.toLowerCase();
+let restOfFullName2 = fullName.slice(8,13);
+let emailAddress = smallA + restOfFullName + "." + smallM + restOfFullName2 + "@" + domainName + "." + tld;
+console.log(emailAddress);
+
+// BOTH THESE WORK BUT 1 OR THE OTHER
+let smallFullName = fullName.toLowerCase();
+let name1 = smallFullName.slice(0,6);
+let name2 = smallFullName.slice(7,13);
+let emailAddress = name1 + "." + name2 + "@" + domainName + "." + tld;
+console.log(emailAddress);
