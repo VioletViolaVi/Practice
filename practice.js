@@ -1,39 +1,244 @@
-let age = 2;
-(age > 18) ?  console.log("You are soooo mature") : console.log("You are still a child");
+// let pie = "5607.35";
 
-let secondAge = 39;
-(secondAge > 18) ?  console.log("You are soooo mature") : console.log("You are still a child");
+// let cake = parseInt(pie);
+// let sweets = parseFloat(pie);
+// let bacon = Number(pie);
 
-if (secondAge > 104){console.log("You are soooo mature");
-}else {console.log("You are still a child");}
-
-var colour = "orange";
-(colour === "orange") ? console.log("yes it is the same") : console.log("no it isn't the same");
-
-var viv = "25YearsOld";
-(viv === "25YearsOld") ? console.log("i am this") : console.log("not anymore");
-(viv === "26YearsOld") ? console.log("this is what i am now") : console.log("i used to be 25 though :'(");
-
-var gate = 60;
-(gate <= 60) ? console.log("yes it is same or equals to") : console.log("you shouldn't see this");
-
-//be careful, u need to add 3 ='s after 100 'cause u checkin' for true or false not an actual maths number :)
-(90*100 === 800) ? console.log("no the answer isn't 800 you dum dum!") : console.log("yes the answer is 9,000");
-
-(0.5-0.5=== "abc") ? console.log("should not see") : console.log("will see");
-
-("cat" === "hat") ? console.log("can't see this") : console.log("i see this");
-
-((3 === 3) && (2 === 5) ) ? console.log("okay") : console.log("not okay");
-
-((10 === 3) || (8 === 8) ) ? console.log("okay") : console.log("not okay");
-
-(2*6 === 500) ? console.log("eggs") : console.log("bacon");
+// console.log(cake);
+// console.log(sweets);
+// console.log(bacon);
 
 
+// let red = "56";
+
+// let blue = parseInt(red);
+// let yellow = parseFloat(red);
+// let black = Number(red);
+
+// console.log(blue);
+// console.log(yellow);
+// console.log(black);
+
+// let rain = parseInt(360.512);
+// console.log(rain);
+
+// let wet = parseFloat(360.512);
+// console.log(wet);
+
+// let dry =Number(360.512);
+// console.log(dry);
+
+
+// let string1 = "34.96";
+
+// /* It is going to be the same result, number 12 */
+// let number1 = parseInt(string1);
+// let number2 = Number(string1);
+
+// let string2 = "34.96";
+// let number3 = parseFloat(string2);
+
+// console.log(number1, number2, number3);
+// console.log(typeof(number1));
+// console.log(typeof(number2));
+// console.log(typeof(number3));
+
+
+// let xmas = "holly tree presents star cake santa carols";
+
+// let long = Array.from(xmas);
+// console.log(long);
+
+// let tv = "that'ssoraven,.and thesuitelife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
+
+// let itsTooLong = Array.from(tv);
+// console.log(itsTooLong);
 
 
 
+// let tv = "that'ssoraven,.and thesuitelife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
+
+// let quotationAfterspace1 = tv.split(" ");
+// console.log(quotationAfterspace1);
+
+// let quotationAfterspace2 = tv.split("");
+// console.log(quotationAfterspace2);
+
+// let quotationAfterspace3 = tv.split(".");
+// console.log(quotationAfterspace3);
+
+// let quotationAfterspace4 = tv.split(",");
+// console.log(quotationAfterspace4);
+
+// let quotationAfterspace5 = tv.split("and");
+// console.log(quotationAfterspace5);
+
+
+// let xmas = "hollytreepresentsstarcakesantacarols";
+
+// let spaceAfterEverySpace = xmas.split("");
+// console.log(spaceAfterEverySpace);
+
+
+// let xmas2 = "holly tree presents star cake santa carols";
+
+// let spaceAfterEverySpace2 = xmas2.split(" ");
+// console.log(spaceAfterEverySpace2);
+
+
+// let xmas3 = "holly,tree,presents,star,cake,santa,carols";
+
+// let spaceAfterEverySpace3 = xmas3.split(",");
+// console.log(spaceAfterEverySpace3);
+
+
+// let xmas4 = "holly.tree.presents.star.cake.santa.carols";
+
+// let spaceAfterEverySpace4 = xmas4.split(".");
+// console.log(spaceAfterEverySpace4);
+
+
+// let xmas5 = "hollyandtreeandpresentsandstarandcakeandsantaandcarols";
+
+// let spaceAfterEverySpace5 = xmas5.split("and");
+// console.log(spaceAfterEverySpace5);
+
+
+
+// let xmas = ["holly", "tree", "presents", "star", "cake", "santa", "carols"];
+
+// let withComma = xmas.join(",");
+// console.log(withComma); /*OR*/console.log(xmas.join(",")); 
+
+// let withSpace = xmas.join(" ");
+// console.log(withSpace); /*OR*/console.log(xmas.join(" "));
+
+// let withNothing = xmas.join("");
+// console.log(withNothing); /*OR*/console.log(xmas.join(""));
+
+// let withAnd = xmas.join(" and "); // putting spaces adds to the "and"
+// console.log(withAnd); /*OR*/console.log(xmas.join(" and ")); // putting spaces adds to the "and"
+
+// let with58 = xmas.join(" 58 ");
+// console.log(with58); /*OR*/console.log(xmas.join(" 58 "));
+
+
+// let viv = ["fun", "nice", "smart"];
+// let newViv = viv.toString();
+// console.log(newViv);
+// console.log(typeof(newViv));
+// console.log(typeof(viv));
+
+// let arthur = ["childhood", " DW", " Mary Moo Cow"];
+// let cbbc = arthur.toString();
+// console.log(cbbc);
+// console.log(typeof(cbbc));
+// console.log(typeof(arthur));
+
+// let smile = ["yellow", " red", " orange"];
+// let colours = smile.toString();
+// console.log(colours);
+// console.log(typeof(colours));
+// console.log(typeof(smile));
+
+
+// let cake = "nice"
+// console.log(typeof(cake));
+
+// let pie = 6
+// console.log(typeof(pie));
+
+// let ice = ["happy birthday!"]
+// console.log(typeof(ice));
+
+// let teeth = (9*9)
+// console.log(typeof(teeth));
+
+// let sheep = "hair"
+// console.log(typeof(sheep));
+
+
+// switch(Boolean(40>2)){
+//     case (true) : console.log("u should c dis"); break;
+//     case (false) : console.log("u shouldn't c dis"); break;
+//     default : console.log("shown if all not correct");
+// }
+
+// let word = ("iceCube");
+
+// switch(word){
+//     case ("iceCube") : console.log("correct"); break;
+//     case (word === "dog") : console.log("wrong"); break;
+//     case (word > "bottle") : console.log("wrong2"); break;
+//     default : console.log("see if all not there");
+// }
+
+// switch("swimming"){
+//     case "basketball" : console.log("no"); break;
+//     case "baseball" : console.log("nope"); break;
+//     case "swimming" : console.log("YEAH!"); break;
+//     default :console.log("seen if all fails");
+// }
+
+
+// let dOb = 18;
+
+// switch (dOb){
+//     case (3+1) : console.log("not 18"); break;
+//     case (10>200): console.log("still not 18"); break;    
+//     case (20-2) : console.log("yes correct"); break;
+//     default : console.log("to be seen if all are wrong"); 
+// }
+
+
+// switch(3*3) {
+//     case (2) : console.log("nope"); break;
+//     case (91) : console.log("yes"); break;
+//     case (10) : console.log("nope"); break; 
+//     case (6) : console.log("nope"); break;
+//     default : console.log("seen if no values match");    
+// }
+
+// let sweets = "haribo"
+
+// switch(sweets){
+//     case "chocolate" : console.log("this isn't haribo!"); break;
+//     case "cake" : console.log("nope not right either"); break;
+//     case "haribo" : console.log("yeeeeeeaaaaaaahhhhhh maaaaaaannnnnnn!"); break;
+//     default : console.log("will show if the above-s don't-s got-s it-s XD")
+// }
+
+// let age = 2;
+// (age > 18) ?  console.log("You are soooo mature") : console.log("You are still a child");
+
+// let secondAge = 39;
+// (secondAge > 18) ?  console.log("You are soooo mature") : console.log("You are still a child");
+
+// if (secondAge > 104){console.log("You are soooo mature");
+// }else {console.log("You are still a child");}
+
+// var colour = "orange";
+// (colour === "orange") ? console.log("yes it is the same") : console.log("no it isn't the same");
+
+// var viv = "25YearsOld";
+// (viv === "25YearsOld") ? console.log("i am this") : console.log("not anymore");
+// (viv === "26YearsOld") ? console.log("this is what i am now") : console.log("i used to be 25 though :'(");
+
+// var gate = 60;
+// (gate <= 60) ? console.log("yes it is same or equals to") : console.log("you shouldn't see this");
+
+// //be careful, u need to add 3 ='s after 100 'cause u checkin' for true or false not an actual maths number :)
+// (90*100 === 800) ? console.log("no the answer isn't 800 you dum dum!") : console.log("yes the answer is 9,000");
+
+// (0.5-0.5=== "abc") ? console.log("should not see") : console.log("will see");
+
+// ("cat" === "hat") ? console.log("can't see this") : console.log("i see this");
+
+// ((3 === 3) && (2 === 5) ) ? console.log("okay") : console.log("not okay");
+
+// ((10 === 3) || (8 === 8) ) ? console.log("okay") : console.log("not okay");
+
+// (2*6 === 500) ? console.log("eggs") : console.log("bacon");
 
 
 // let fruit1 = "apple";
