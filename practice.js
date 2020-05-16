@@ -1,10 +1,405 @@
+// let i = usernames[199];  //MINE
+
+// do{
+//   console.log("<p>" + i + "</p>");
+//   i++;
+// }while(i<usernames);
+
+
+// let i = usernames.length-1; // not mine
+
+// do{
+//   console.log("<p>" + usernames[i] + "</p>");
+//   i++;
+// }while(i<usernames);
+
+
+
+// let tv = 90;
+
+// do{
+//     console.log(tv);
+//     tv++;   
+// }while (tv<100);
+
+// let i = 10;
+
+// do{
+//     console.log(i);
+//     i++;   
+// }while (i<100);
+
+// let i = 201;
+
+// do{
+//     console.log(i); // to produced in console as it was still read, just not looped 'cause 201 is bigger than 20!!!
+//     i++;   
+// }while (i<20);
+
+
+// let i = 35;
+
+// do{
+//     console.log(i);
+//     i++;   
+// }while (i<50);
+
+// for(i = 0; i < usernames.length; i++){
+//     console.log("<p>" + usernames[i] + "</p>");
+//OR
+
+// for(let i in usernames){
+//     console.log("<p>" + usernames[i] + "</p>");
+// }
+//OR
+
+// for(let name in usernames){
+//     console.log("<p>" + usernames[name] + "</p>");
+// }
+//OR
+
+// for(let name of usernames){
+//     console.log("<p>" + name + "</p>");
+// }
+//OR
+
+// for(let i of usernames){
+//     console.log("<p>" + i + "</p>");
+// }
+
+
+
+// let i =5;
+
+// while (i<15){
+//     console.log("this is " + i + " and it's less than 15!");
+//     i++;
+// }
+
+// let i = 8;
+
+// while (i<90){
+//     console.log("this is gonna be loooong.... And " + " is still less than 90 haha!!!");
+//     i++;
+// }
+
+
+// let i = 0;
+
+// while (i<9){
+//     console.log("yes!!!");
+//     i++;    
+// }
+
+
+// let cake = 0;
+
+// while (cake<11){
+//     console.log("singing");
+//     cake++
+// }
+
+// let i =3;
+
+// while(i<10){
+//     console.log("lalala");
+//     i++
+// }
+
+// let i=6;
+
+// while(i<10){
+//     console.log("no way!");
+//     i++;    
+// }
+
+// let i = 8;
+// while(i<10){
+//     console.log("supper!");
+//     i++;
+// }
+
+
+// let i = 0;
+
+// while ( i < 10) {
+// 	console.log("I am happy");
+//   i++;
+// }
+
+// while (i<40){
+//     console.log("hiya");
+//     i++;
+// }
+
+// while (i<25){
+//     console.log("bye");
+//     i++;
+// }
+
+
+// let colours = ["red", "black", "green", "orange", "blue"];
+
+// for (let shade of colours){
+//     console.log(shade);
+    
+// }
+
+// for (let blob of colours){
+//     console.log(blob);
+    
+// }
+
+// for (let drop of colours){
+//     console.log(drop);
+    
+// }
+
+// let tv = ["that's so raven", "the suite life", "arrow", "htgawm", "rhoa", "tweenies", "the weekenders", "6teen", "ozzy and drix"];
+
+// for (let shows of tv){
+//     console.log(shows);
+// }
+
+// for(let episodes of tv){
+//     console.log(episodes);
+    
+// }
+
+// for(let rain of tv){
+//     console.log(rain);  
+// }
+
+// for (let eggs of tv){
+//     console.log(eggs);
+    
+// }
+
+// let toys = ["sims", "teddy", "ball", "doll", "doll house", "marbles"];
+
+// toys = toys.sort();
+// console.log(toys);
+
+// for (let toy of toys){
+//     console.log(toy);
+    
+// }
+
+
+// let toys = ["sims", "teddy", "ball", "doll", "doll house", "marbles"];
+
+// for (let i in toys){ 
+//     console.log(toys[i]);
+// }
+
+// let list = ["red", "black", "green", "orange", "blue"];
+
+// for (let i in list){
+//     console.log(list[i]);    
+// }
+
+// let sports = ["basketball", "football", "tennis", "chess"];
+
+// for(let i in sports){
+//     console.log(sports[i]+" "+ i);
+// }
+
+// let tv = ["that's so raven", "the suite life", "arrow", "htgawm", "rhoa", "tweenies", "the weekenders", "6teen", "ozzy and drix"];
+
+// for(let i in tv){
+//     console.log(tv[i]+" "+i);
+// }
+
+//  let bread = ["sugar", "flour", "eggs","baking-soda","milk","vanilla"];
+
+//  for(let d of bread){
+//     console.log(d); 
+// }
+
+// for (let slice of bread){
+//     console.log(slice);    
+// }
+
+
+// for(let i in bread){
+//     console.log(bread[i]+" "+i);
+    
+// }
+
+
+// let list = ["red", "black", "green", "orange", "blue"];
+
+// for (i=0; i<list.length; i++){
+//     console.log(list[i]);
+// }
+
+// for (i=0; i<list.length; i++){
+//     console.log(list[i] + i);
+// }
+
+// let toys = ["sims", "teddy", "ball", "doll", "doll house", "marbles"];
+
+// console.log(toys.length);
+
+// for (i=2; i<toys.length; i++){
+//     console.log(toys[i] +" " + i);
+// }
+
+// for (i=0; i<toys.length; i++){
+//     console.log(toys[i] +" " + i);
+// }
+
+// for (i=1; i<toys.length; i++){
+//     console.log(toys[i]);  
+// }
+
+// for (i=1; i<toys.length; i++){
+//     console.log(toys[i] + " " + i);  
+// }
+
+// for(i=3; i<toys.length; i++){
+//     console.log(toys[i] + " " + i);
+    
+// }
+
+// for(i=1; i<toys.length; i++){
+//     console.log(toys[i] + " " + i);
+    
+// }
+
+
+// for (let i = 0; i < 10; i = i + 2 ) { 
+// 	console.log("I am happy");
+// }
+
+// for (let i = 0; i < 20; i = i + 2 ) { 
+// 	console.log("I am happy");
+// }
+
+// for (let i = 10; i > 0; i--) { 
+// 	console.log("I am happy " + i);
+// }
+
+// for (let i = 0; i < 10; i++) { 
+// 	console.log("I am sad " + i);
+// }
+
+// for (i=60; i>=10; i--){
+//     console.log("down " + i);
+// }
+
+// for (i=60; i>10; i--){
+//     console.log("down " + i);
+// }
+
+// for (i=30; i>20; i--){
+//     console.log("yo! " + i);
+// }
+
+// for (i=70; i>=50; i--){
+//     console.log("ho ho ho! " + i);
+// }
+
+// for (i=70; i>50; i--){
+//     console.log("no! " + i);
+// }
+
+
+// for (i=0; i<8; i++){
+//     console.log("hello");
+// }
+
+// for (i=2; i<=6; i++){
+//     console.log("hiya");
+// }
+
+// for (i=4; i<10; i++){
+//     console.log("bye")
+// }
+
+// for(i=7; i<=14; i++){
+//     console.log("hey!")
+// }
+// for(i=9; i<=9; i++){
+//     console.log("hee");
+// }
+
+
+// let sports = ["basketball", "football", "tennis", "chess"];
+
+// for (i = 0; i < sports.length; i++) {
+// 	console.log(sports[i]);
+// }
+
+// let tv = ["that's so raven", "the suite life", "arrow", "htgawm", "rhoa", "tweenies", "the weekenders", "6teen", "ozzy and drix"];
+
+// for (i=0; tv.length; i++){
+//     console.log(tv[i]);
+    
+// }
+
+// for(i= 2; i<=8; i++){
+//     console.log("started @ 2 ended @ 8 correct? " + i);
+    
+// }
+
+// for(i= 2; i<8; i++){
+//     console.log("started @ 2 ended @ 8 correct? " + i);
+    
+// }
+
+
+
+// for (i=0; i<7; i++){
+//     console.log("how many i's do u see? " + i);
+    
+// }
+
+// for (let i = 10; i > 0; i--){
+//     console.log("what happens now?1");
+//     console.log("what happens now?2");
+// }
+
+// for (i=0; i <6; i++){
+//          console.log("this is be repeated 6 times... no?");        
+//      }
+
+// for (i=0; i<5; i++){
+//     console.log("this got looped 5 times!")
+// }
+
+// for (i=0; i<9; i++){
+//     console.log("this 9 times!")
+// }
+
+// for (i=0; i<3; i++){
+//     console.log("3 times!");    
+// }
+
+// for  (i=0; i<101; i++){
+//     console.log("101 times! wow dat's a lot!");
+    
+// }
+
+// for (i=0; i<5; i++){
+//     console.log("what happend here?");
+    
+// }
+
+
+
+// console.log(true + true);
+
+// let i = Number(true); console.log(i);
+// Number(false);
+
 // let pie = "5607.35";
 
-// let cake = parseInt(pie);
+// let i = parseInt(pie);
 // let sweets = parseFloat(pie);
 // let bacon = Number(pie);
 
-// console.log(cake);
+// console.log(i);
 // console.log(sweets);
 // console.log(bacon);
 
@@ -44,19 +439,19 @@
 // console.log(typeof(number3));
 
 
-// let xmas = "holly tree presents star cake santa carols";
+// let xmas = "holly tree presents star i santa carols";
 
 // let long = Array.from(xmas);
 // console.log(long);
 
-// let tv = "that'ssoraven,.and thesuitelife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
+// let tv = "ti'ssoraven,.and thesuiiife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
 
 // let itsTooLong = Array.from(tv);
 // console.log(itsTooLong);
 
 
 
-// let tv = "that'ssoraven,.and thesuitelife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
+// let tv = "ti'ssoraven,.and thesuiiife,.and arrow,.and htgawm,.and rhoa,.and tweenies,.and theweekenders,.and 6teen,.and ozzy&drix";
 
 // let quotationAfterspace1 = tv.split(" ");
 // console.log(quotationAfterspace1);
@@ -74,38 +469,38 @@
 // console.log(quotationAfterspace5);
 
 
-// let xmas = "hollytreepresentsstarcakesantacarols";
+// let xmas = "hollytreepresentsstarisantacarols";
 
 // let spaceAfterEverySpace = xmas.split("");
 // console.log(spaceAfterEverySpace);
 
 
-// let xmas2 = "holly tree presents star cake santa carols";
+// let xmas2 = "holly tree presents star i santa carols";
 
 // let spaceAfterEverySpace2 = xmas2.split(" ");
 // console.log(spaceAfterEverySpace2);
 
 
-// let xmas3 = "holly,tree,presents,star,cake,santa,carols";
+// let xmas3 = "holly,tree,presents,star,i,santa,carols";
 
 // let spaceAfterEverySpace3 = xmas3.split(",");
 // console.log(spaceAfterEverySpace3);
 
 
-// let xmas4 = "holly.tree.presents.star.cake.santa.carols";
+// let xmas4 = "holly.tree.presents.star.i.santa.carols";
 
 // let spaceAfterEverySpace4 = xmas4.split(".");
 // console.log(spaceAfterEverySpace4);
 
 
-// let xmas5 = "hollyandtreeandpresentsandstarandcakeandsantaandcarols";
+// let xmas5 = "hollyandtreeandpresentsandstarandiandsantaandcarols";
 
 // let spaceAfterEverySpace5 = xmas5.split("and");
 // console.log(spaceAfterEverySpace5);
 
 
 
-// let xmas = ["holly", "tree", "presents", "star", "cake", "santa", "carols"];
+// let xmas = ["holly", "tree", "presents", "star", "i", "santa", "carols"];
 
 // let withComma = xmas.join(",");
 // console.log(withComma); /*OR*/console.log(xmas.join(",")); 
@@ -142,8 +537,8 @@
 // console.log(typeof(smile));
 
 
-// let cake = "nice"
-// console.log(typeof(cake));
+// let i = "nice"
+// console.log(typeof(i));
 
 // let pie = 6
 // console.log(typeof(pie));
@@ -186,14 +581,14 @@
 // switch (dOb){
 //     case (3+1) : console.log("not 18"); break;
 //     case (10>200): console.log("still not 18"); break;    
-//     case (20-2) : console.log("yes correct"); break;
+//     case (20-2) : console.log("i correct"); break;
 //     default : console.log("to be seen if all are wrong"); 
 // }
 
 
 // switch(3*3) {
 //     case (2) : console.log("nope"); break;
-//     case (91) : console.log("yes"); break;
+//     case (91) : console.log("i"); break;
 //     case (10) : console.log("nope"); break; 
 //     case (6) : console.log("nope"); break;
 //     default : console.log("seen if no values match");    
@@ -203,7 +598,7 @@
 
 // switch(sweets){
 //     case "chocolate" : console.log("this isn't haribo!"); break;
-//     case "cake" : console.log("nope not right either"); break;
+//     case "i" : console.log("nope not right either"); break;
 //     case "haribo" : console.log("yeeeeeeaaaaaaahhhhhh maaaaaaannnnnnn!"); break;
 //     default : console.log("will show if the above-s don't-s got-s it-s XD")
 // }
@@ -218,21 +613,21 @@
 // }else {console.log("You are still a child");}
 
 // var colour = "orange";
-// (colour === "orange") ? console.log("yes it is the same") : console.log("no it isn't the same");
+// (colour === "orange") ? console.log("i it is the same") : console.log("no it isn't the same");
 
 // var viv = "25YearsOld";
 // (viv === "25YearsOld") ? console.log("i am this") : console.log("not anymore");
-// (viv === "26YearsOld") ? console.log("this is what i am now") : console.log("i used to be 25 though :'(");
+// (viv === "26YearsOld") ? console.log("this is wi i am now") : console.log("i used to be 25 though :'(");
 
 // var gate = 60;
-// (gate <= 60) ? console.log("yes it is same or equals to") : console.log("you shouldn't see this");
+// (gate <= 60) ? console.log("i it is same or equals to") : console.log("you shouldn't see this");
 
 // //be careful, u need to add 3 ='s after 100 'cause u checkin' for true or false not an actual maths number :)
-// (90*100 === 800) ? console.log("no the answer isn't 800 you dum dum!") : console.log("yes the answer is 9,000");
+// (90*100 === 800) ? console.log("no the answer isn't 800 you dum dum!") : console.log("i the answer is 9,000");
 
 // (0.5-0.5=== "abc") ? console.log("should not see") : console.log("will see");
 
-// ("cat" === "hat") ? console.log("can't see this") : console.log("i see this");
+// ("i" === "i") ? console.log("can't see this") : console.log("i see this");
 
 // ((3 === 3) && (2 === 5) ) ? console.log("okay") : console.log("not okay");
 
@@ -252,17 +647,17 @@
 // else{console.log("not yummy i'm afraid");}
 
 
-// if (fruit1 == "apple" && fruit2 == "cake"){console.log("not this one");}
+// if (fruit1 == "apple" && fruit2 == "i"){console.log("not this one");}
 // else if (2*2 == 3 || 5/5 == 46){console.log("not this either!");}
 // else if (50-50 == 9 || "hands" == "hands"){console.log("this will be the one! :)");}
-// else{console.log("long road just to end up at a place that wont be used!");}
+// else{console.log("long road just to end up at a place ti wont be used!");}
 
-// if (fruit1 == "apple" && fruit2 == "cake"){console.log("not this one");}
+// if (fruit1 == "apple" && fruit2 == "i"){console.log("not this one");}
 // else if (2*2 == 3 || 5/5 == 46){console.log("not this either!");}
 // else if (50-50 == 9 || "hands" == (60-2 == 834) ){console.log("this will be the one! :)");}
 // else{console.log("long road to get to but worth it as I am the one!");}
 
-// if (fruit1 == "telephone" && fruit2 == "peach"){console.log("will it be A");}
+// if (fruit1 == "iephone" && fruit2 == "peach"){console.log("will it be A");}
 // else if (2*2 == 40 || 5/5 == 46){console.log("will it be B");}
 // else if (50-50 == 9 || !("hands" == (60-2 == 834) ) ){console.log("will it be C");}// ! negates the true and makes it false
 // else{console.log("or will it be D!");}
@@ -271,16 +666,16 @@
 // else if (9*2 == 18){console.log("this should show it has the CORRECT answer");}
 // else {console.log("this also should NOT be seen as it is wrong")}
 
-// if (78>400){console.log("yes it is");}
+// if (78>400){console.log("i it is");}
 // else if (99<2){console.log("nope it isn't");}
 // else {console.log("no way dude!");}
 
-// if ("cat"=="waterBottle"){console.log("U funni if u tink dis correct :'D");}
-// else if ("cat" == "pie"){console.log("NOOOOOOOOOOOO!");}
+// if ("i"=="waterBottle"){console.log("U funni if u tink dis correct :'D");}
+// else if ("i" == "pie"){console.log("NOOOOOOOOOOOO!");}
 // else {console.log("I think I get this now! :)");}
 
-// if ("cat"=="cat"){console.log("yeah");}
-// else if ("cat" == "pie"){console.log("nope");}
+// if ("i"=="i"){console.log("yeah");}
+// else if ("i" == "pie"){console.log("nope");}
 // else {console.log("this will never show");}
 
 // if ("dog"=="pizza"){console.log("haha");}
@@ -292,7 +687,7 @@
 // else if (3*3 == 8){console.log("2b");}
 // else if (10>200){console.log("3c");}
 // else if ("walking" == "balls"){console.log("4d");}
-// else if ("hat" == "sofa bed that opens out"){console.log("5e");}
+// else if ("i" == "sofa bed ti opens out"){console.log("5e");}
 // else if ("5" == "5"){console.log("6f");}
 // else {console.log("hehe");}
 
@@ -322,19 +717,19 @@
 // console.log((5 < 1) && (3 < 1)); //false,false = false
 // console.log((5 * 5 == 25) && (33 / 11 == 2)); //true,false = false
 // console.log((5 * 10 == 50) && (30 / 5 == 6)); //true,true = true
-// console.log((36 / 6 == 6) && ("cat in a hat" == "cat in a hat") && ("car" == "laptop")); //true,true,false = false
+// console.log((36 / 6 == 6) && ("i in a i" == "i in a i") && ("car" == "laptop")); //true,true,false = false
 
 // || only needs one to be true
 // console.log((5 < 1) || (3 < 1)); //false,false = false
 // console.log((5 * 5 == 25) || (33 / 11 == 2)); //true,false = true
 // console.log((5 * 10 == 50) || (30 / 5 == 6)); //true,true = true
-// console.log((36 / 6 == 6) || ("cat in a hat" == "cat in a hat") || ("car" == "laptop")); //true,true,false = true
+// console.log((36 / 6 == 6) || ("i in a i" == "i in a i") || ("car" == "laptop")); //true,true,false = true
 
 // ! negates rusult and makes it opposite
 // console.log( !( (5 < 1)||(3 < 1) ) ); //false,false = false NO MORE!! = true
 // console.log( !( (5 * 5 == 25)||(33 / 11 == 2) ) ); //true,false = true NO MORE!! = false
 // console.log( !( (5 * 10 == 50)||(30 / 5 == 6) ) ); //true,true = true NO MORE!! false,false = false
-// console.log( !( (36 / 6 == 6)||("cat in a hat" == "cat in a hat")||("car" == "laptop") ) ); //true,true,false = true NO MORE!! = false
+// console.log( !( (36 / 6 == 6)||("i in a i" == "i in a i")||("car" == "laptop") ) ); //true,true,false = true NO MORE!! = false
 
 // let toyStory = "cartoon";
  
@@ -344,19 +739,19 @@
 //   console.log("This is NOT a cartoon. DUH!!!");
 // }
 
-// var cake = "food";
+// var i = "food";
 
-// if (cake != "food") {
+// if (i != "food") {
 //   console.log("This is not food!");
 // } else {
 //   console.log("This IS food!");
 // }
 
 // var math = "5 times 5 is 25";
-// // var math = "cats eat fish";
+// // var math = "is eat fish";
 
 // if (math == "5 times 5 is 25") {
-//   console.log("yes indeed this was a math question");
+//   console.log("i indeed this was a math question");
 // } else {
 //   console.log("is u crazi! dis not maths bruh!");
 // }
@@ -383,7 +778,7 @@
 // console.log(Boolean(""));
 // console.log(Boolean(0.468));
 // console.log(Boolean());
-// console.log(Boolean("that"));
+// console.log(Boolean("ti"));
 // console.log(Boolean(""));
 
 // Country data to be used in your array construction:
@@ -470,9 +865,9 @@
 // let country4D = countryData[44][3];
 // let densities = [country1D,country2D,country3D,country4D];
 
-// let countriesPoulations = countries.concat(populations);
-// let countriesPoulationsAreas = countriesPoulations.concat(areas);
-// let countriesPoulationsAreasDensities = countriesPoulationsAreas.concat(densities);
+// let countriesPoulations = countries.coni(populations);
+// let countriesPoulationsAreas = countriesPoulations.coni(areas);
+// let countriesPoulationsAreasDensities = countriesPoulationsAreas.coni(densities);
 // let flattened = countriesPoulationsAreasDensities;
 
 // //faster way to do above - not mine!
@@ -480,7 +875,7 @@
 // var populations = [countryData[0][1], countryData[13][1], countryData[33][1], countryData[44][1]];
 // var areas = [countryData[0][2], countryData[13][2], countryData[33][2], countryData[44][2]];
 // var densities = [countryData[0][3], countryData[13][3], countryData[33][3], countryData[44][3]];
-// var flattened = countries.concat(populations).concat(areas).concat(densities);
+// var flattened = countries.coni(populations).coni(areas).coni(densities);
 
 // // The following lines will log your variables to the console:
 // console.log(countries);
@@ -526,7 +921,7 @@
 // console.log(sortedFromSeventyFive);
 // console.log(sortedFromOneHundred);
 
-// let shows = ["that's so raven", "the suite life", "arrow", "htgawm", "rhoa", "tweenies", "the weekenders", "6teen", "ozzy and drix"];
+// let shows = ["ti's so raven", "the suite life", "arrow", "htgawm", "rhoa", "tweenies", "the weekenders", "6teen", "ozzy and drix"];
 
 // shows.fill("nice");
 // console.log(shows);
@@ -558,7 +953,7 @@
 // shows.shift();
 // console.log(shows);
 
-// shows.unshift("hellcats");
+// shows.unshift("hellis");
 // console.log(shows);
 
 // let faves = shows.shift();
@@ -571,9 +966,9 @@
 
 // let bread = ["sugar", "flour", "eggs","baking-soda","milk","vanilla"];
 
-// let whatsLeft = bread.pop();
-// whatsLeft = bread.pop();
-// whatsLeft = bread.pop();
+// let wisLeft = bread.pop();
+// wisLeft = bread.pop();
+// wisLeft = bread.pop();
 // console.log(bread);
 
 // let leftOvers = bread.pop();
@@ -587,22 +982,22 @@
 // console.log(bread);
 // console.log(leftOvers);
 
-// let cake1 = ["sugar", "flour", "eggs"];
-// cake1.push("baking-soda", "milk");
-// console.log(cake1);
+// let i1 = ["sugar", "flour", "eggs"];
+// i1.push("baking-soda", "milk");
+// console.log(i1);
 
-// cake1.push("vanilla");
-// console.log(cake1);
+// i1.push("vanilla");
+// console.log(i1);
 
-// let iceCreamCake12 = cake1.push("mint");
-// console.log(cake1);
+// let iceCreami12 = i1.push("mint");
+// console.log(i1);
 
-// let iceCreamCake1 = cake1.push();
-// console.log(iceCreamCake1);
+// let iceCreami1 = i1.push();
+// console.log(iceCreami1);
 
 // console.log('hello world');
 // console.log(3-4);
-// // alert("what's up y'all!");
+// // alert("wi's up y'all!");
 // console.error("oh no it's an error");
 // console.warn("so this is how a warning works?");
 
@@ -755,13 +1150,13 @@
 // console.log("My name is " + "Paul");
 // console.log("My name is " + n1);
 // console.log('Hello World');
-// console.log("what's up ya'll" + a1);
-// console.log("what's up ya'll" + b1);
-// console.log("what did you just do? :|" + m1);
-// console.log("what's \nup \nya'll" + c1);
-// console.log("Made it up on the spot \nHa! I think not \nWhy you tellin' them lies \nyo boi you need to stop \nI'm hotter than summer! \nHa yo boi your rap is a bummer \nAnd where did you get the nerve to tell RayDizzal to take a NUMBER!!");
-// console.log("Made it up on the spot\rHa! I think not \rWhy you tellin' them lies \ryo boi you need to stop \rI'm hotter than summer! \rHa yo boi your rap is a bummer \rAnd where did you get the nerve to tell RayDizzal to take a NUMBER!!");
-// console.log("Made it up on the spot\r Ha! I think not\r Why you tellin' them lies\r yo boi you need to stop\r I'm hotter than summer!\r Ha yo boi your rap is a bummer\r And where did you get the nerve to tell RayDizzal to take a NUMBER!!");
+// console.log("wi's up ya'll" + a1);
+// console.log("wi's up ya'll" + b1);
+// console.log("wi did you just do? :|" + m1);
+// console.log("wi's \nup \nya'll" + c1);
+// console.log("Made it up on the spot \nHa! I think not \nWhy you ilin' them lies \nyo boi you need to stop \nI'm hotter than summer! \nHa yo boi your rap is a bummer \nAnd where did you get the nerve to il RayDizzal to take a NUMBER!!");
+// console.log("Made it up on the spot\rHa! I think not \rWhy you ilin' them lies \ryo boi you need to stop \rI'm hotter than summer! \rHa yo boi your rap is a bummer \rAnd where did you get the nerve to il RayDizzal to take a NUMBER!!");
+// console.log("Made it up on the spot\r Ha! I think not\r Why you ilin' them lies\r yo boi you need to stop\r I'm hotter than summer!\r Ha yo boi your rap is a bummer\r And where did you get the nerve to il RayDizzal to take a NUMBER!!");
 
 // console.log("\tWelcome \tto \tthe \tworld \tof\tJavascript!");
 // console.log("You\tcan\tcheck\tout\tanytime\tyou\twant,\tbut\tyou\ncan\tnever\tleave");
@@ -791,7 +1186,7 @@
 // let wind = "Take your sweet sweet ";
 // let fire = "time. Let the world un";
 // let earth = "wind. Let's do our growing up n";
-// let air = "aturally! Oh Yeah! You gotta have rain & sunshine blossom on a vine. That's nature's grand design!";
+// let air = "aturally! Oh Yeah! You gotta have rain & sunshine blossom on a vine. Ti's nature's grand design!";
 // let eggs = " Take your sweet sweet time!";
 // let song = wind + fire + earth + air + eggs;
 // let complete = song + " and you'll be just fine! Take your sweet sweet time! "
@@ -800,28 +1195,28 @@
 
 // let str1 = "Hello ";
 // let str2 = "there!";
-// let str3 = " What a beautiful day to learn Javascript concatenation, right?";
-// console.log (str1.concat(str2, str3));
-// console.log (str2.concat(str1, str3));
-// console.log (str3.concat(str1, str2));
+// let str3 = " Wi a beautiful day to learn Javascript conienation, right?";
+// console.log (str1.coni(str2, str3));
+// console.log (str2.coni(str1, str3));
+// console.log (str3.coni(str1, str2));
 
 // let str12 = "Hello ";
 // let str22 = "there!";
-// let str32 = " What a beautiful day to learn Javascript concatenation, right?";
-// console.log(str12.concat(str22, str32));
+// let str32 = " Wi a beautiful day to learn Javascript conienation, right?";
+// console.log(str12.coni(str22, str32));
 
 // let apple1 = "oh na na";
-// let cake = " what's my name?";
-// let runner = " oh na na what's";
+// let i = " wi's my name?";
+// let runner = " oh na na wi's";
 // let grapes1 = " my name?";
-// console.log(apple1.concat(cake + runner + grapes1));
-// console.log(cake.concat(runner + grapes1 + apple1));
-// console.log(grapes1.concat(apple1 + cake + runner));
+// console.log(apple1.coni(i + runner + grapes1));
+// console.log(i.coni(runner + grapes1 + apple1));
+// console.log(grapes1.coni(apple1 + i + runner));
 
-// console.log(`${cake + eggs}`);
+// console.log(`${i + eggs}`);
 // console.log(`${banana + a1 + wind + fire + str1}`);
 
-// let quote = "Whatever the mind can conceive and believe, it can achieve.";
+// let quote = "Wiever the mind can conceive and believe, it can achieve.";
 // let conceive = quote.slice(22,30);
 // let believe = quote.slice(35,42);
 // let achieve = quote.slice(51,58);
