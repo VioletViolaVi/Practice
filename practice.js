@@ -1,3 +1,673 @@
+function ask(question, good, bad) {
+  if (confirm(question)) {
+  	good();
+  }
+  else { 
+  	bad();
+  }
+}
+
+function yes() {
+  console.log( "Glad to hear that!" );
+}
+
+function no() {
+  console.log( "Sorry to hear that" );
+}
+
+// ask("Are you ok?", yes, no);
+
+
+// remove comments and run each of these calls one by one
+// ask("Are you ok?", no, no);
+// ask("Are you ok?", yes, yes);
+ask("Are you ok?", no, yes);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let result;
+
+// if (true) {
+// / a and b can only be accessed within the scope of this if statement but outside the if statement you cannot access them /
+// let a = 100;
+// const b = 200;
+// var c =20;
+// console.log(a);
+// console.log(b);
+// console.log(c);
+// result = a + b + c;
+// }
+
+// console.log(result)
+// console.log(a);
+// console.log(b);
+// console.log(c);
+
+
+// const language = "javascript";
+// var language = "ruby";
+// let language = "star2";
+// console.log(language);
+
+
+// const language = "javascript";
+// language = "ruby";
+// console.log(language);
+// var language = "ruby";
+// let language = "ruby";
+
+// let apple;
+// function showApple() {
+//   apple = 'An apple!'
+//     console.log(apple);
+    
+// }showApple();
+
+// function showBanana() {
+//   banana = "A banana!";
+// 	console.log(banana);
+// 	var banana;
+// }showBanana();
+
+// var apple = console.log("apple");
+// var apple = console.log("banana");
+
+
+// let banana = console.log("banana");
+//  banana = console.log("apple");
+
+
+// function multiply(a, b){
+// 	return a * b; // needed otherwise undefined becomes the reuslt
+// }
+// console.log(multiply(10, 2));
+
+
+// function multiply(a, b = 10) {
+// 	return a * b;
+// }
+
+// console.log(multiply(2));
+
+
+// function dividing(a,b){ 
+//     console.log(a/b);
+//     console.log("a = " + a);
+//     console.log("b = " + b);
+// }dividing();
+
+
+// function adding(a,b){
+//     console.log(a + b);
+//     console.log("a = " + a);
+//     console.log("b = " + b);
+// } adding(25,5);
+
+// function subtracting(a,b){
+//     console.log("a = "  + a);
+//     console.log("b = "+ b);
+//     console.log(a-b);    
+// }subtracting(90,10);
+
+// function dividing(a,b){ 
+//     console.log(a/b);
+//     console.log("a = " + a);
+//     console.log("b = " + b);
+// }dividing(49,7);
+
+// function multiplying(a,b){
+//     console.log(a*b);
+//     console.log("a = " + a);
+//     console.log("b = " + b);
+// }multiplying(60,2)
+
+// function dividing(biggerNumber, smallerNumber){
+//     console.log( biggerNumber/smallerNumber);
+// }dividing(36, 6);
+
+// function multiplying(firstNumber, secondNumber){
+//     console.log(firstNumber*secondNumber);    
+// }multiplying(9,9);
+
+// function adding(number1st, number2nd){
+//     console.log(number2nd + number1st);    
+// }adding(60, 20);
+
+// function subtracting(largerNumber, smallNumber){
+//     console.log(largerNumber - smallNumber);
+// }subtracting(0, 50);
+
+// function addingThenSubtracting(bigNos, biggerNos, smallNos){
+//     console.log(bigNos + biggerNos - smallNos);    
+// }addingThenSubtracting(6, 10, 3,);
+
+// function addingAndSubtracting(bigNos, biggerNos, smallNos, smallerNos){
+//     console.log(bigNos + biggerNos - smallNos + smallerNos);    
+// }addingAndSubtracting(6, 10, 3, 1);
+
+
+// function multiply(a, b){
+//     console.log(a * b); 
+// } multiply(6, 6); 
+
+// function hello(){ // function keyword and the name of the function
+// 	console.log("hello!"); // code block
+// }hello();
+
+// function sauce(){
+//     console.log("hi");
+    
+// }sauce();
+
+// function grass(){
+//     console.log(2+3);
+// }
+// grass();
+
+// function mat(){
+//     console.log("this is from mat");
+// }mat();
+
+// function hair(){
+//     console.log("this is hair");
+// }hair();
+
+// function tap(){
+//     console.log("this is from tap");    
+// }tap();
+
+// function death(){
+//     return 2+2;
+// }death();
+
+
+// let names = "Johana"
+// "suzu"
+// "eBa"
+// "1)-"
+// "WMY"
+// "Deirdre Leah"
+// "Susana"
+// "**Kawaii FariRy**"
+// "Kaomi"
+// "2)-"
+// "Itzayana"
+// "Alma."
+// "yuna"
+// "3)-"
+// "Zoey Fogbow"
+// "Miss Popo"
+// "4)-"
+// "5)-"
+// "Roxy"
+// "Naw"
+// "Iyi"
+// "Nasu"
+// "kristina" 
+// "Dakota"
+// "hactR"
+// "6)-"
+// "7)-"
+// "Sarah"
+// "8)-"
+// "Eleonora"
+// "Aimee"
+// "Demon Aleena"
+// "Kinan"
+// "Katelyn"
+// "chi"
+// "9)-"
+// "Skyla"
+// "kaya"
+// "Erika"
+// "Claritta angela"
+// "10)-"
+// "11)-"
+// "bille"
+// "Nastya Jupiter"
+// "U"
+// "Calico"
+// "12)-"
+// "?"
+// "zelle"
+// "Alessia"
+// "syoko"
+// "Lau"
+// "kenneth"
+// "LISA"
+// "Tad"
+// "Elisha_ofc_"
+// "13)-"
+// "Lucia"
+// "14)- "
+// "kuncoroo"
+// "Alinka"
+// "Sofia"
+// "PolinaSiz"
+// "RHa"
+// "chany"
+// "Waffelkatze"
+// "15)-"
+// "miki"
+// "16)-"
+// "17)-"
+// "FitriGirl"
+// "18)-"
+// "19)-"
+// "Meg"
+// "NOPE"
+// "Awan"
+// "Mom"
+// "crystal heart"
+// "Vi"
+// "Didem"
+// "Duda"
+// "Rosy"
+// "Ayu"
+// "Hun"
+// "shion"
+// "yuuka"
+// "@Chelsea Gloria_125"
+// "JJ"
+// "Tacca"
+// "Johnsy"
+// "haley:3c"
+// "Vanessa"
+// "20)-"
+// "21)-"
+// "22)-"
+// "MoonZ_….leewall"
+// "love you"
+// "Dnyl [heart] A"
+// "D r a"
+// "23)-"
+// "24)-"
+// "rendras"
+// "Azichi"
+// "jessy"
+// "25)-"
+// "26)-"
+// "Hana"
+// "*~itsuki~*"
+// "Sabilaaptr13"
+// "Adam"
+// "kiara"
+// "Jay"
+// "lili"
+// "Karolina"
+// "27)-"
+// "Email"
+// "cata"
+// "28)-"
+// "29)-"
+// "Valery"
+// "30)-"
+// "catalina"
+// "Sukura"
+// "Elenalvarez25"
+// "all A2"
+// "xiaojia"
+// "Bella"
+// "Alexi"
+// "Nisan"
+// "Luuk"
+// "Jojo"
+// "Mio & Ryo"
+// "Ellis"
+// "lilibeth"
+// "Nao"
+// "31)-"
+// "Prim" 
+// "HELEN"
+// "X-man"
+// "STAR"
+// "2B"
+// "32)-"
+// "Daria"
+// "33)-"
+// "Nana"
+// "34)-"
+// "35)-"
+// "36)-"
+// "37)-"
+// "38)-"
+// "Mini bec"
+// "39)-"
+// "Nene"
+// "Lupi"
+// "Swarnali"
+// "40)-"
+// "41)-"
+// "42)-"
+// "43)-"
+// "Aaron"
+// "44)-"
+// "an"
+// "alysxa"
+// "lele"
+// "45)-"
+// "46)-"
+// "Andrea"
+// "Rachel"
+// "Irpan"
+// "Simal"
+// "Nati"
+// "47)-"
+// "ZANDRA"
+// "48)-"
+// "Nira"
+// "Isabela"
+// "Bean"
+// "Miriam"
+// "Erina"
+// "Alexander"
+// "uma"
+// "Camifg";
+
+// "Johana,
+// suzu,
+// eBa,
+// 1)-,
+// WMY,
+// Deirdre Leah,
+// Susana,
+// **Kawaii FariRy**,
+// Kaomi,
+// 2)-,
+// Itzayana,
+// Alma.,
+// yuna,
+// 3)-,
+// Zoey Fogbow,
+// Miss Popo,
+// 4)-,
+// 5)-,
+// Roxy,
+// Naw,
+// Iyi,
+// Nasu,
+// kristina,
+// Dakota,
+// hactR,
+// 6)-,
+// 7)-,
+// Sarah,
+// 8)-,
+// Eleonora,
+// Aimee,
+// Demon Aleena,
+// Kinan,
+// Katelyn,
+// chi,
+// 9)-,
+// Skyla,
+// kaya,
+// Erika,
+// Claritta angela,
+// 10)-,
+// 11)-,
+// bille,
+// Nastya Jupiter,
+// U,
+// Calico,
+// 12)-,
+// ?,
+// zelle,
+// Alessia,
+// syoko,
+// Lau,
+// kenneth,
+// LISA,
+// Tad,
+// Elisha_ofc_,
+// 13)-,
+// Lucia,
+// 14)- ,
+// kuncoroo,
+// Alinka,
+// Sofia,
+// PolinaSiz,
+// RHa,
+// chany,
+// Waffelkatze,
+// 15)-,
+// miki,
+// 16)-,
+// 17)-,
+// FitriGirl,
+// 18)-,
+// 19)-,
+// Meg,
+// NOPE,
+// Awan,
+// Mom,
+// crystal heart,
+// Vi,
+// Didem,
+// Duda,
+// Rosy,
+// Ayu,
+// Hun,
+// shion,
+// yuuka,
+// @Chelsea Gloria_125,
+// JJ,
+// Tacca,
+// Johnsy,
+// haley:3c,
+// Vanessa,
+// 20)-,
+// 21)-,
+// 22)-,
+// MoonZ_….leewall,
+// love you,
+// Dnyl [heart] A,
+// D r a,
+// 23)-,
+// 24)-,
+// rendras,
+// Azichi,
+// jessy,
+// 25)-,
+// 26)-,
+// Hana,
+// *~itsuki~*,
+// Sabilaaptr13,
+// Adam,
+// kiara,
+// Jay,
+// lili,
+// Karolina,
+// 27)-,
+// Email,
+// cata,
+// 28)-,
+// 29)-,
+// Valery,
+// 30)-,
+// catalina,
+// Sukura,
+// Elenalvarez25,
+// allA2,
+// xiaojia,
+// Bella,
+// Alexi,
+// Nisan,
+// Luuk,
+// Jojo,
+// Mio&Ryo,
+// Ellis,
+// lilibeth,
+// Nao,
+// 31)-,
+// Prim ,
+// HELEN,
+// X-man,
+// STAR,
+// 2B,
+// 32)-,
+// Daria,
+// 33)-,
+// Nana,
+// 34)-,
+// 35)-,
+// 36)-,
+// 37)-,
+// 38)-,
+// Mini bec,
+// 39)-,
+// Nene,
+// Lupi,
+// Swarnali,
+// 40)-,
+// 41)-,
+// 42)-,
+// 43)-,
+// Aaron,
+// 44)-,
+// an,
+// alysxa,
+// lele,
+// 45)-,
+// 46)-,
+// Andrea,
+// Rachel,
+// Irpan,
+// Simal,
+// Nati,
+// 47)-,
+// ZANDRA,
+// 48)-,
+// Nira,
+// Isabela,
+// Bean,
+// Miriam,
+// Erina,
+// Alexander,
+// uma,
+// camifg, "
+
+// let zepeto = names.split("");
+// console.log(zepeto);
+
+// for (i=0; i>200; i--){
+//   for (j=0; j>countryData[i].length; j--){
+//     console.log([i],[j]);
+//   }
+
+// for (i=0; i<20; i++){
+//     if (i === 5){
+//         continue;
+//     }
+//     console.log("phone " + i)
+// }
+
+// for (i=0; i<30; i++){
+//     if (i === 23){
+//         continue;
+//     }
+//     console.log("water "+ i);
+    
+// }
+
+// for (i=0; i<45;i++){
+//     if (i === 40){
+//         continue;
+//     }
+//     console.log("spoon " + i);
+    
+// }
+
+// for (i=0; i<900; i++){
+//     if (i === 850){
+//         continue;
+//     }
+//     console.log("pen " + i);
+    
+// }
+
+// for (i=0; i<900; i++){
+//     if (i === 850){
+//         continue;
+//     }
+//     console.log("pen " + i);
+    
+// }
+
+
+// for (i=0; i<100; i++){
+//     if (i === 6){
+//         break;
+//     }
+//     console.log("hello world! " + i)
+// }
+
+// for (i=0; i<100; i++){
+//     if(i === 59){
+//         break;
+//     }
+//     console.log("supper! " + i);
+// }
+
+// for (i=0; i<100; i++){
+//     if (i === 20){
+//         break;
+//     }
+//     console.log("hidden ya'll "+ i);
+// }
+
+// for (i=0; i<100; i++){
+//     if (i === 2){
+//       break;  
+//     }
+//     console.log("tired " + i);
+    
+// }
+
+// for (i=0; i<100; i++){
+//     if (i === 7){
+//         break;
+//     }
+//     console.log("noooo! " + i);
+    
+// }
+
+// for (i=0; i<50; i++){
+//     if (i === 40){
+//         break;
+//     }
+//     console.log("cake please " + i);
+    
+// }
+
+// for (i=0; i<400; i++){
+//     if (i===399){
+//         break;
+//     }
+//     console.log("last one... it gonna be loooonnnnggggg! " + i);    
+// }
+
+
+
+// let tickersString = tickers.join(" ");
+
+
 // let i = usernames[199];  //MINE
 
 // do{
@@ -12,7 +682,6 @@
 //   console.log("<p>" + usernames[i] + "</p>");
 //   i++;
 // }while(i<usernames);
-
 
 
 // let tv = 90;
