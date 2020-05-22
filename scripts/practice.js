@@ -1,19 +1,221 @@
-function ask(question, good, bad) {
-  if (confirm(question)) {
-  	good();
-  }
-  else { 
-  	bad();
-  }
-}
+// function Car(year, owner, manufacturer) {
+// 	this.year = year;
+// 	this.owner = owner;
+// 	this.manufacturer = manufacturer;
+// 	this.speak = function () {
+// 		console.log(`vrooooooom!`);
+// 	};
+// }
 
-function yes() {
-  console.log( "Glad to hear that!" );
-}
+// let myCar = new Car("1965", "Ann", "Ford");
+// console.log(typeof myCar);
+// console.log(typeof Car);
+// myCar.speak();
+// console.log(myCar);
+// console.log(myCar.year, myCar.owner, myCar.manufacturer,myCar.speak);
 
-function no() {
-  console.log( "Sorry to hear that" );
-}
+
+// let me = {
+//     name : "Vivian",
+//     age : 26,
+//     dob : "18th May 1994",
+//     favColour : "purple",
+//     job : "student",
+//     faveFood : "pizza",
+//     bio: function(){
+//         console.log(this.name + " is " + this.age + " years old. " + "She was born on the " + 
+//         this.dob + ". Her favourite colour is " + this.favColour + " and her favourite food is " + this.faveFood + ".");
+//     },
+// };
+// console.log(me);
+// console.log(me.job);
+// me.bio();
+
+// let countries = {
+//     japan : "I have been to",
+//     tawian : "I have never been to",
+//     singapore : "I have never been to",
+//     china : "I have been to",
+//     thailand : "I have never been to",
+//     vietnam : "I have never been to",
+//     southKorea: parseInt(60),
+//     places : function(){
+//         console.log(this.japan + " Japan but " + this.tawian + " Tawian. Also, " + this.singapore + " Singapore but " + this.china + 
+//         " China. " + this.thailand + " Thailand and " + this.vietnam + " Vietnam however, " + this.southKorea + " South Korea. I am now in the UK.");       
+//     }
+// }; 
+// console.log(countries);
+// countries.places();
+
+// console.log(typeof(["sugar", "flour", "eggs","baking-soda","milk","vanilla"]));
+
+
+
+// let car = {
+// 	owner: "me",
+// 	name: "speedy",
+// 	year: 2017,
+// 	wheels: 4,
+// };
+
+// console.log(car)
+
+// let country = {
+// 	name: "Croatia",
+// 	population: 4.224,
+// 	sea: true,
+// 	islands: 1000,
+// 	language: "croatian",
+// 	bio: function() {
+// 		console.log(this.name + " is a country with " + this.population + " people");
+// 	},
+// };
+
+
+// function varScope() {
+// //   var theAnswer = "var42";
+//   if (true) {
+//     var theAnswer = "var Life, the universe and everything!";
+//     console.log(theAnswer);
+//   }
+//   console.log(theAnswer);
+// }
+
+// function letScope() {
+//   let theAnswer = "let42";
+//   if (true) {
+//      theAnswer = "let Life, the universe and everything!";
+//     console.log(theAnswer);
+//   }
+//   console.log(theAnswer);  // 2
+// }
+
+// varScope();
+// letScope();
+
+
+
+// function hello() {
+//   let greeting = "hello";
+//   console.log(greeting);
+// }
+// hello();
+
+
+// Local Scope
+
+// Code here cannot see theAnswer
+
+// function displayAnswer() {
+//     let theAnswer = 42;
+//     // console.log(theAnswer);
+
+//     // Code here can see theAnswer
+// }
+// displayAnswer();
+
+// // Code here cannot see theAnswer
+// console.log(theAnswer);
+
+// Local Scope
+
+// Code here cannot see theAnswer
+
+// function displayAnswer() {
+//     let theAnswer = 42;
+//     console.log(theAnswer);
+
+//     // Code here can see theAnswer
+// }
+// displayAnswer();
+
+// // Code here cannot see theAnswer
+// // console.log(theAnswer);
+
+
+// function ask(question,good,bad){
+//     if (confirm(question)){
+//         good();
+//     }else{
+//         bad();
+//     }
+// }
+
+// function bad(){
+//     console.log("no i feel like pants!");
+// }
+
+// function good(){
+//     console.log("yes i feel like i wanna dance!");
+// }
+
+// ask("you feel good? yes or no?",good,bad)
+
+
+// function asking(question, positive, negative){
+//     if (confirm(question)){
+//         positive();
+//     }else{
+//         negative();
+//     }   
+// }
+// function feelGood(){
+//     console.log("So great to hear you feel good today!");
+// }
+// function feelBad(){
+//     console.log("Oh no! You don't feel good! I'm sorry!");
+// }
+// asking("Do you feel good today?", feelGood, feelBad);
+
+
+
+// function asking(question, good, bad){
+//     if (confirm(question)){
+//         good();
+//     }else{
+//         bad();
+//     }
+// }
+
+// function good(){
+//     console.log("yes I feel good!");
+// }
+
+// function bad(){
+//     console.log("no I feel bad!");
+// }
+
+// asking("If you feel good click OK. If not, just cancel", good, bad);
+
+
+
+// function multiplying(a,b){
+//     console.log(a*b);
+//     console.log("a = " + a);
+//     console.log("b = " + b);
+// }multiplying(60,2);
+
+
+// confirm("yo");
+// alert("alert");
+
+
+// function ask(question, good, bad) {
+//   if (confirm(question)) {
+//   	good();
+//   }
+//   else { 
+//   	bad();
+//   }
+// }
+
+// function yes() {
+//   console.log( "Glad to hear that!" );
+// }
+
+// function no() {
+//   console.log( "Sorry to hear that" );
+// }
 
 // ask("Are you ok?", yes, no);
 
@@ -21,23 +223,7 @@ function no() {
 // remove comments and run each of these calls one by one
 // ask("Are you ok?", no, no);
 // ask("Are you ok?", yes, yes);
-ask("Are you ok?", no, yes);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// ask("Are you ok?", no, yes);
 
 
 
@@ -1911,3 +2097,108 @@ ask("Are you ok?", no, yes);
 // let name2 = smallFullName.slice(7,13);
 // let emailAddress1 = name1 + "." + name2 + "@" + domainName + "." + tld;
 // console.log(emailAddress1);
+
+
+ 
+// constructor fuctions
+
+// function Vivian(age, dob, faveMovie){
+//     this.age = age;
+//     this.dob = dob;
+//     this.faveMovie = faveMovie;
+// };
+
+// let brandNewVariable = new Vivian(26, "18th May 1994", "Mulan - animated");
+// console.log(brandNewVariable); // you get Vivian {age: 26, dob: "18th May 1994", faveMovie: "Mulan - animated"}
+// console.log(brandNewVariable.age); // you get 26
+// console.log(brandNewVariable.dob); // you get 18th May 1994
+// console.log(brandNewVariable.faveMovie); // you get Mulan - animated
+// console.log(brandNewVariable.age, brandNewVariable.dob, brandNewVariable.faveMovie); // you get 26 "18th May 1994" "Mulan - animated"
+/*brandNewVariable.Vivian();*/ // ERROR!!!! This is not a function! 
+
+// function Arrow(episodes, seasons, mainCharacters){
+//     this.episodes = episodes;
+//     this.seasons = seasons;
+//     this.mainCharacters = mainCharacters;
+//     this.sentence = function(){
+//         console.log(`This was the best show EVER!`);
+//     };
+// };
+// let arrowThatAllowsCallouts = new Arrow(205, 7, 3);
+// console.log(arrowThatAllowsCallouts); // you get: Arrow {episodes: 205, seasons: 7, mainCharacters: 3, sentence: ƒ}
+// console.log(arrowThatAllowsCallouts.episodes); // you get: 205
+// console.log(arrowThatAllowsCallouts.seasons); // you get: 7
+// console.log(arrowThatAllowsCallouts.mainCharacters); // you get: 3
+// console.log(arrowThatAllowsCallouts.episodes, arrowThatAllowsCallouts.seasons, arrowThatAllowsCallouts.mainCharacters); // you get: 205 7 3
+// arrowThatAllowsCallouts.sentence();
+// /*Arrow.newArrow();*/ // ERROR !!!! This is not a function!
+
+// obejct literals
+
+// let vivian = {
+//     age: 26,
+//     dob: "18th May 1994",
+//     favFood: "pizza",
+//     personalInfo: function(){
+//         console.log("This is who I am.");
+//     },
+// };
+// vivian.personalInfo(); /*This is who I am.*/
+// console.log(vivian.favFood); /*pizza*/
+// console.log(vivian.dob); /*18th May 1994*/
+// console.log(vivian.age);/*26*/
+// console.log(vivian.age, vivian.dob, vivian.favFood);/*26 "18th May 1994" "pizza"*/
+
+// let oliverQueen = {
+//     heroName : "Green Arrow",
+//     weapons : "bows and arrows",
+//     partner : "Diggle!",
+//     description : function(){
+//         console.log("He is called the " + this.heroName + ". His partner is called " 
+//         + this.partner + " His weapons of choice are " + this.weapons + ".");        
+//     },
+// };
+// oliverQueen.description(); /*He is called the Green Arrow. His partner is called Diggle! His weapons of choice are bows and arrows.*/
+// console.log(oliverQueen); /*{heroName: "Green Arrow", weapons: "bows and arrows", partner: "Diggle!", description: ƒ}*/
+// console.log(oliverQueen.heroName); /*Green Arrow"*/
+// console.log(oliverQueen.weapons); /*bows and arrows*/
+// console.log(oliverQueen.partner); /*Diggle!*/
+// console.log(oliverQueen.heroName, oliverQueen.weapons, oliverQueen.partner); /*Green Arrow bows and arrows Diggle!*/
+
+// // it overrides!
+// function saySomething (){
+//     console.log("something!");    
+// };
+
+// function saySomething(){
+//     console.log("naw! nevermind");    
+// };
+// saySomething();
+
+// let person = {
+// 	firstName: "Judy",
+// 	lastName: "Smith",
+// 	hello: function () {
+// 		// notice the template literal and string interpolation
+// 	 console.log(`My name is: ${this.firstName} ${this.lastName}`);
+// 	}
+// };
+
+// person.hello();
+
+// let fruit = {
+// 	type: "banana",
+// 	humanize: function() {
+// 		console.log(`Although I am ${this.type}, I can still talk!`);
+// 	}
+// };
+// fruit.humanize();
+// console.log(fruit.type);
+
+//   function displayAlert() {
+//         let today = new Date();
+//         let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+//         alert("Hi! The time is now: " + time);
+//     }
+//     displayAlert();
+
