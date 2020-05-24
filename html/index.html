@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+
+	<h1 onclick="this.innerHTML = 'NOW BYE!'">
+		Javascript try
+	</h1>
+
+
+	<p id="buttonChange">click the button to change this text please</p>
+	<button onclick="myButton()">
+        click this
+    </button>
+
+
+	<p id="text" onclick="paraText()">
+		change this text by itself
+	</p>
+
+
+	<p onmousedown="mDown(this)" onmouseup="mUp(this)">
+		click to see what happens next
+	</p>
+
+
+	<p onmouseover="mOver(this)" onmouseout="mOut(this)">
+		hi move the cursor over me and/or my block area :D
+	</p>
+
+
+	<p>press on photo</p>
+	<img src="/images/Zepeto1.png" alt="Zepeto1" style="width:200px; height:200px;"
+    onmousedown="zep2()" onmouseup= "zep1()" id="photos">
+
+
+    <p id="demo"></p>
+
+
+    <p>press on photo also</p>
+	<img src="/images/Zepeto3.png" alt="Zepeto3" style="width:200px; height:200px;"
+    onmousedown="zep4()" onmouseup= "zep3()" id="photos2">
+
+
+	<script src="/js/projects.js"></script>
+</body>
+
+</html>
