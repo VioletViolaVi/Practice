@@ -333,12 +333,152 @@
 #     for number in row:
 #         print(number)
 
+# print("*"*70)
 
-print("*"*70)
+# numbers = [1, 2, 3, 4, 5, 6, 523, 1, 9, 9, 9]
+# numbers.append(7)
+# numbers.insert(0, 0)
+# numbers.insert(8, 8)
+# numbers.remove(8)
+# numbers.clear()
+# numbers.pop()
+# numbers.sort()
+# numbers.reverse()
+# numbers2 = numbers.copy()
+# numbers.append(1111111111)
+# print(numbers.count(9))
+# print(numbers.index(523))
+# print(12 in numbers)
+# print(5 in numbers)
+# print(numbers)
+# print(numbers2)
+
+# food = ["pizza", "pizza", "egg", "egg", "fish", "hot dog", "noodles", "noodles"]
+# fridge = []
+# food.remove("pizza")
+# food.remove("egg",)
+# food.remove("noodles")
+# food.sort()
+
+# for meals in food:
+#     if meals not in fridge:
+#         fridge.append(meals)
+
+# print(food)
+# print(fridge)
+# print("*"*70)
+
+# games = ("sims", "sims 2", "sims 3", "sims 4")
+# print(games[0])
+
+# my_tuple = (1, 2, 3, 4, 5)
+# red, yellow, green, blue, pink = my_tuple
+# print(red, yellow, green, blue, pink)
+# print(my_tuple)
+
+# print("*"*70)
+
+# me = {
+#     "name": "vivian",
+#     "age": 26,
+#     "dob": "18th May 1994",
+#     "fav food": "pizza"
+# }
+# print(me["name"])
+# print(me["age"])
+# print(me["dob"])
+# print(me["fav food"])
+# print(me.get("fav show", "empire"))
+# me["name"] = "Viv"
+# print(me["name"])
+# me["job"] = "studying"
+# print(me["job"])
+# print(me)
+
+# phone = input("Phone: ")
+# phone_number = {
+#     "1": "one ",
+#     "2": "two ",
+#     "3": "three ",
+#     "4": "four "
+# }
+# output = ""
+# for typed_thing in phone:
+#     output += phone_number.get(typed_thing, "!")
+# print(output)
+
+# print("*"*70)
+
+# message = input("> ")
+# words = message.split(" ")
+# print(words)
+
+# print("*"*70)
+
+# def greeting_you():
+#     user_name = input("What's your name? ")
+#     print(f"Hi {user_name}")
+#     print(f"welcome {user_name} to the show!")
+
+
+# greeting_you()
+
+
+# def greeting_you(user_name, age, dob):
+#     print(f"Hi {user_name}. You were born {dob}, so you are {age} years old.")
+#     print(f"welcome {user_name} to the show!")
+
+
+# greeting_you("Viv", 26, "18th May 1994")
+# greeting_you("Candi", 25, dob="18th March 1995")
+# greeting_you(dob="18th Jan 2000", user_name="Tiff", age=20)
+
+# def square(number):
+#     print(number*number)
+
+
+# print(square(3))
+# result = square(3)
+# print(result)
+
+# try:
+#     age = int(input("what's your age? "))
+#     income = 20000
+#     risk = income/age
+#     print(age)
+# except ZeroDivisionError:
+#     print("age can't be 0")
+# except ValueError:
+#     print("Error! Not a Number")
+
+# print("*"*70)
+
+# print("*"*70)
+
+# """
+# This is  multi-line comment.
+
+# We can spread this across as many lines as we need to
+# and it won't impact our computer program at all!!!
+# """
+
+
+# def print_message(message):
+#     print(message)
+
+
+# print_message("Hello Guys!")
+
+
+# my_list = [1, 2, 3, 4, 5]
+# for item in my_list:
+#     print(item)
+
+
+# from flask import Flask
 
 
 
-print("*"*70)
 
 
 
@@ -371,28 +511,38 @@ print("*"*70)
 
 
 
+# # Define the shorten_url function here:
+# def shorten_url(string, integer):
+#   if string.startswith("http://" or "https://"):
+#     if "www" in string:
+#         string.remove("www")
+
+#     if isinstance(string,str) == False:
+#         return "Error! URL must be a string."
+
+#     if isinstance(integer,int) != 2 or 3:
+#         return "Error! Top level domain character limit must be an integer, either 2 or 3."
+
+#     if string.startswith("http://" or "https://") == False:
+#         return "Error! Protocol must be either HTTP or HTTPS."
+
+# string.slice(9,12).add(".").add(string[-3:0])
+# string.remove(".com")
+#     return(f"https://{string}, {integer}")
 
 
+# print(shorten_url('https://www.google.com', 3))
 
 
-
-
-
-# def check_engine(oil, coolant, gasoline):
-#     if oil == 1:
-#         if gasoline == 1:
-#             if coolant == 1:
-#                 return "engine started!"
-#         else:
-#             return "gas or coolant issue"
-#     else:
-#         return "oil issue"
-
-# def check_engine(oil, coolant, gasoline):
-#     if oil == 1:
-#         if gasoline and coolant == 1:
-#             return "engine started!"
-#         else:
-#             return "gas or coolant issue"
-#     else:
-#         return "oil issue"
+#     url = "http://" or "https://"
+#     url.remove("www")
+#     hostname = url.slice(3) + "." + url.slice(-2) or url.slice(-3)
+#     url.remove(url[-5:-1])
+#     str(url)
+#     if isinstance(string,str) == False:
+#         return "Error! URL must be a string."
+#     if isinstance(integer,int) != 2 or 3:
+#         return "Error! Top level domain character limit must be an integer, either 2 or 3."
+#     if string.startswith("http://" or "https://") == False:
+#         return "Error! Protocol must be either HTTP or HTTPS."
+#     return shorten_url
