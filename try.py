@@ -478,50 +478,19 @@
 # from flask import Flask
 
 
-import os
-from flask import Flask
+# import os
+# from flask import Flask
 
-app = Flask(__name__)
-
-
-@app.route("/")
-def index():
-    return "Hello World!"
-
-    if __name__ == "__main__":
-        app.run(host=os.environ.get("IP"), port=int(
-            os.environ.get("PORT")), debug=True)
+# app = Flask(__name__)
 
 
+# @app.route("/")
+# def index():
+#     return "Hello World!"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#     if __name__ == "__main__":
+#         app.run(host=os.environ.get("IP"), port=int(
+#             os.environ.get("PORT")), debug=True)
 
 
 # # Define the shorten_url function here:
@@ -559,3 +528,164 @@ def index():
 #     if string.startswith("http://" or "https://") == False:
 #         return "Error! Protocol must be either HTTP or HTTPS."
 #     return shorten_url
+
+
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+#     def move(self):
+#         print("move")
+
+#     def draw(self):
+#         print("draw")
+
+
+# point = Point(10, 20)
+# point.x = 11
+# print(point.x)
+
+# point1 = Point()
+# point1.x = 10
+# point1.y = 20
+# print(point1.x)
+# point1.draw()
+
+# point2 = Point()
+# point2.x = 1
+# print(point2.x)
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+
+#     def talk(self):
+#         print(f"Hi. I am {self.name}")
+
+
+# viv = Person("viv gold")
+# viv.talk()
+
+
+# bay = Person("Bay Kneithezx")
+# bay.talk()
+
+
+# class Mammal():
+#     def walk(self):
+#         print("walk")
+
+
+# class Cat(Mammal):
+#     def be_annoying(self):
+#         print("annoying")
+
+
+# class Dog(Mammal):
+#     def bark(self):
+#         print("bark")
+
+
+# dog1 = Dog()
+# dog1.walk()
+# dog1.bark()
+
+# cat1 = Cat()
+# cat1.walk()
+# cat1.be_annoying()
+
+
+# import converters
+# from converters import kg_to_lbs
+
+# kg_to_lbs(100)
+
+# print(converters.kg_to_lbs(70))
+
+
+# import utils
+# from utils import find_maximum
+
+# numbers = [10, 3, 6, 2]
+# maximum = find_maximum(numbers)
+# print(maximum)
+
+
+# import ecommerce.shipping
+# ecommerce.shipping.calc_shipping()
+# from ecommerce.shipping import calc_shipping
+# from ecommerce.shipping import calc_shipping, calc_tax
+# from ecommerce import shipping
+
+# shipping.calc_shipping()
+
+
+# import random
+
+
+# for i in range(3):
+#     print(random.randint(10, 20))
+
+
+# members = ["robin", "cyborg", "starfire", "raven", "beastboy"]
+# leader = random.choice(members)
+# print(leader)
+
+
+# class Dice:
+#     def roll(self):
+#         first = random.randint(1, 6)
+#         second = random.randint(1, 6)
+#         return first, second
+
+
+# dice = Dice()
+# print(dice.roll())
+
+
+# from pathlib import Path
+
+
+# path = Path()
+# for file in path.glob("*"):
+#     print(file)
+
+
+# import openpyxl as xl
+# from openpyxl.chart import BarChart, Reference
+
+
+# def process_workbook(filename):
+#     wb = xl.load_workbook(filename)
+#     sheet = wb["Sheet1"]
+
+#     for row in range(2, sheet.max_row + 1):
+#         cell = sheet.cell(row, 3)
+#         corrected_price = cell.value * 0.9
+#         corrected_price_cell = sheet.cell(row, 4)
+#         corrected_price_cell.value = corrected_price
+
+#     values = Reference(sheet, min_row=2, max_row=sheet.max_row,
+#                        min_col=4, max_col=4)
+
+#     chart = BarChart()
+#     chart.add_data(values)
+#     sheet.add_chart(chart, "e2")
+
+#     wb.save(filename)
+
+
+# from flask import Flask
+
+
+# app = Flask(__name__)
+
+
+# @app.route("/")
+# def home():
+#     return "This is the home page!"
+
+
+# if __name__ == "__main__":
+#     app.run(debug=True)
